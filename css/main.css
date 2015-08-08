@@ -7,15 +7,15 @@ body {
   height: 100%; }
 
 .day {
-  font-family: 'Alegreya Sans SC', sans-serif;
-  font-size: 1.1em;
-  font-weight: 100;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1em;
+  font-weight: 300;
   text-align: right;
   line-height: 1.25;
+  text-transform: uppercase;
   float: right;
   margin-right: 3em;
-  padding-top: 5em;
-  padding-bottom: 2em;
+  margin-top: 4em;
   max-width: 190px; }
 
 .separate {
@@ -23,53 +23,18 @@ body {
   border: 0px dotted;
   background-color: transparent; }
 
-/*----------------Day 2*----------------*/
-#day-2 {
-  background-color: blue;
-  color: yellow; }
-  #day-2 .day {
-    opacity: .7; }
-  #day-2 #main-container {
-    padding-top: 6em;
-    padding-bottom: 9em; }
-  #day-2 .row {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 900;
-    font-size: 5.6em;
-    line-height: .8em; }
-  #day-2 .revel {
-    color: black; }
-  #day-2 .rebel {
-    color: yellow; }
-  #day-2 #caption {
-    font-family: 'Megrim', cursive;
-    color: blue;
-    font-size: 1.5em;
-    /*		text-transform: uppercase;*/
-    text-align: center;
-    font-weight: 300;
-    padding-bottom: 8em; }
-    #day-2 #caption p {
-      background-color: yellow;
-      display: inline-block;
-      padding: 15px 25px 15px 25px; }
-  @media screen and (max-width: 768px) {
-    #day-2 #caption {
-      max-width: 250px;
-      margin: auto; }
-      #day-2 #caption p {
-        padding: 10px 20px 10px 20px; } }
-
-/*----------------Day 1*----------------*/
-#day-1 {
-  background-color: pink; }
+/*Day 1*/
+.content {
+  background-image: url("smoke.jpg");
+  background-repeat: no-repeat;
+  height: 100px;
+  margin-top: 3.3em; }
 
 .row {
   text-align: center;
   margin: auto;
   max-width: 800px;
-  padding: 0px 50px 0px 50px;
-  clear: both; }
+  padding: 0px 50px 0px 50px; }
 
 @media screen and (max-width: 542px) {
   .third-font {
@@ -116,7 +81,7 @@ body {
   word-spacing: 0em;
   line-height: 1.4;
   color: #4A4A41;
-  padding-bottom: 3em;
+  padding-bottom: .7em;
   margin-left: 70px;
   margin-top: -140px;
   text-align: left;
@@ -136,4 +101,9 @@ a:hover {
   color: #4A4A41;
   text-decoration: none; }
 
-/*# sourceMappingURL=style.css.map */
+#hr-day-1 {
+  max-width: 150px;
+  border-width: 5px;
+  border-color: yellow; }
+
+/*# sourceMappingURL=main.css.map */
