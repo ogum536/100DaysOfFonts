@@ -25,8 +25,8 @@ body {
 
 /*----------------Day 2*----------------*/
 #day-2 {
-  background-color: blue;
-  color: yellow; }
+  background-color: lightblue;
+  color: black; }
   #day-2 .day {
     opacity: .7; }
   #day-2 #main-container {
@@ -43,7 +43,7 @@ body {
     color: yellow; }
   #day-2 #caption {
     font-family: 'Megrim', cursive;
-    color: blue;
+    color: black;
     font-size: 1.5em;
     /*		text-transform: uppercase;*/
     text-align: center;

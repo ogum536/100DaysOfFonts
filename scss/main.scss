@@ -31,13 +31,13 @@ body {
 
 /*----------------Day 2*----------------*/
 
-$bg-color: blue;
+$bg-color: lightblue;
 $revel-color: black;
 $rebel-color: yellow;
 
 #day-2 {
 	background-color: $bg-color;
-	color: yellow;
+	color: black;
 
 	.day {
 		opacity: .7;
@@ -64,7 +64,7 @@ $rebel-color: yellow;
 
 	#caption {
 		font-family: 'Megrim', cursive;
-		color: blue;
+		color: black;
 		font-size: 1.5em;
 /*		text-transform: uppercase;*/
 		text-align: center;
