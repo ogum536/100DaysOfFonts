@@ -1,5 +1,6 @@
 * {
-  border: 0px dotted; }
+  border: 0px dotted;
+  box-sizing: border-box; }
 
 html,
 body {
@@ -22,6 +23,48 @@ body {
   height: 7.5em;
   border: 0px dotted;
   background-color: transparent; }
+
+/*----------------Day 3*----------------*/
+#day-3 {
+  background-color: lightyellow; }
+  #day-3 .bg-text {
+    font-family: 'Cutive Mono';
+    font-size: 15em;
+    font-weight: bold;
+    line-height: .7;
+    margin-top: 50px;
+    margin-left: 1em;
+    color: lightgrey;
+    opacity: .5;
+    position: relative; }
+    #day-3 .bg-text #dash {
+      color: red;
+      margin-left: -.04em;
+      bottom: .1em;
+      position: relative; }
+  #day-3 .main-text {
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    color: blue;
+    font-size: 8em;
+    margin-left: 30%;
+    max-width: 50%;
+    position: relative;
+    bottom: 80px; }
+  @media screen and (max-width: 968px) {
+    #day-3 .bg-text {
+      font-size: 13em;
+      margin-left: .5em; } }
+@media screen and (max-width: 968px) and (max-width: 680px) {
+  #day-3 .bg-text {
+    font-size: 9em;
+    margin-left: .5em; } }
+@media screen and (max-width: 968px) and (max-width: 480px) {
+  #day-3 .bg-text {
+    font-size: 6em; } }
+
+  #day-3 .lazy-sunday-2 {
+    background-color: blue; }
 
 /*----------------Day 2*----------------*/
 #day-2 {
