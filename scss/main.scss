@@ -36,7 +36,7 @@ body {
 
 #day-4 {
 	background-color: rgba(211,211,211,.1);
-
+	text-shadow: 0px 0px 9px;
 	position: relative;
 
 	.main {
@@ -47,7 +47,7 @@ body {
 		opacity: .3;
 		line-height: .5;
 		padding-bottom: 2em;
-		padding-top: 1.5em;
+		padding-top: 1em;
 		position: relative;
 		z-index: 1;
 	}
@@ -58,6 +58,8 @@ body {
 		.main{
 			font-size: 7em;
 			margin-left: -5%;
+			padding-top: 2em;
+			padding-bottom: 2em;
 		}
 	}
 
@@ -65,7 +67,8 @@ body {
 
 		.main{
 			font-size: 5em;
-
+			padding-top: 3.3em;
+			padding-bottom: 3.3em;
 		}
 	}
 }
@@ -107,7 +110,7 @@ $bg-color: yellow;
 		margin-top: .3em;
 		margin-left: 1em;
 		color: lightgrey;
-		opacity: .5;
+		opacity: .3;
 		position: relative;
 
 			#dash {
@@ -122,8 +125,9 @@ $bg-color: yellow;
 		margin-left: -1em;
 		font-family: 'Varela Round', sans-serif;
 		font-weight: bold;
-		color: darkblue;
+		color: #8080B5;
 		font-size: 6em;
+		text-shadow: 9px 0px 0px #FFB39D;
 		margin-left: 25%;
 		max-width: 70%;
 		padding-bottom: 1.5em;
@@ -140,6 +144,7 @@ $bg-color: yellow;
 
 		.main-text {
 			font-size: 5em;
+			text-shadow: 8px 0px 0px #FFB39D;
 		}
 
 	@media screen and (max-width: 680px) {
@@ -149,6 +154,7 @@ $bg-color: yellow;
 		}
 		.main-text {
 			font-size: 4em;
+			text-shadow: 6px 0px 0px #FFB39D;
 		}
 	}
 
@@ -159,20 +165,13 @@ $bg-color: yellow;
 		.main-text {
 			bottom: 30px;
 			font-size: 3em;
+			text-shadow: 4px 0px 0px #FFB39D;
 		}
 	}
 
 
 	}
 
-
-
-
-
-
-	.lazy-sunday-2 {
-		background-color:blue;
-	}
 
 }
 
@@ -204,7 +203,7 @@ $rebel-color: yellow;
 
 	#main-container {
 		padding-top: 6em;
-		padding-bottom: 9em;
+		padding-bottom: 13em;
 	}
 	.row {
 		font-family: 'Roboto', sans-serif;
@@ -222,10 +221,11 @@ $rebel-color: yellow;
 	}
 
 	#caption {
-		font-family: 'Megrim', cursive;
+/*		font-family: 'Megrim', cursive;*/
+		font-family: 'Open Sans Condensed', sans-serif;
 		color: black;
 		font-size: 1.5em;
-
+		letter-spacing: .2em;
 /*		text-transform: uppercase;*/
 		text-align: center;
 		font-weight: 300;
@@ -233,7 +233,7 @@ $rebel-color: yellow;
 					p {
 						background-color: yellow;
 						display:inline-block;
-
+						border: 1px solid;
 						padding: 10px 20px 10px 20px;
 					}
 	}
@@ -272,7 +272,6 @@ $rebel-color: yellow;
 
 #day-1 {
 	background-color: pink;
-	color: deeppink;
 }
 
 .row {

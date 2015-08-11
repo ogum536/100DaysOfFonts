@@ -27,6 +27,7 @@ body {
 /*----------------Day 4----------------*/
 #day-4 {
   background-color: rgba(211, 211, 211, 0.1);
+  text-shadow: 0px 0px 9px;
   position: relative; }
   #day-4 .main {
     margin-left: -6%;
@@ -35,16 +36,20 @@ body {
     opacity: .3;
     line-height: .5;
     padding-bottom: 2em;
-    padding-top: 1.5em;
+    padding-top: 1em;
     position: relative;
     z-index: 1; }
   @media screen and (max-width: 680px) {
     #day-4 .main {
       font-size: 7em;
-      margin-left: -5%; } }
+      margin-left: -5%;
+      padding-top: 2em;
+      padding-bottom: 2em; } }
   @media screen and (max-width: 480px) {
     #day-4 .main {
-      font-size: 5em; } }
+      font-size: 5em;
+      padding-top: 3.3em;
+      padding-bottom: 3.3em; } }
 
 /*----------------Day 3*----------------*/
 #day-3 {
@@ -58,7 +63,7 @@ body {
     margin-top: .3em;
     margin-left: 1em;
     color: lightgrey;
-    opacity: .5;
+    opacity: .3;
     position: relative; }
     #day-3 .bg-text #dash {
       color: red;
@@ -69,8 +74,9 @@ body {
     margin-left: -1em;
     font-family: 'Varela Round', sans-serif;
     font-weight: bold;
-    color: darkblue;
+    color: #8080B5;
     font-size: 6em;
+    text-shadow: 9px 0px 0px #FFB39D;
     margin-left: 25%;
     max-width: 70%;
     padding-bottom: 1.5em;
@@ -81,22 +87,22 @@ body {
       font-size: 13em;
       margin-left: .5em; }
     #day-3 .main-text {
-      font-size: 5em; } }
+      font-size: 5em;
+      text-shadow: 8px 0px 0px #FFB39D; } }
 @media screen and (max-width: 968px) and (max-width: 680px) {
   #day-3 .bg-text {
     font-size: 9em;
     margin-left: .5em; }
   #day-3 .main-text {
-    font-size: 4em; } }
+    font-size: 4em;
+    text-shadow: 6px 0px 0px #FFB39D; } }
 @media screen and (max-width: 968px) and (max-width: 480px) {
   #day-3 .bg-text {
     font-size: 6em; }
   #day-3 .main-text {
     bottom: 30px;
-    font-size: 3em; } }
-
-  #day-3 .lazy-sunday-2 {
-    background-color: blue; }
+    font-size: 3em;
+    text-shadow: 4px 0px 0px #FFB39D; } }
 
 /*----------------Day 2*----------------*/
 #day-2 {
@@ -106,7 +112,7 @@ body {
     opacity: .7; }
   #day-2 #main-container {
     padding-top: 6em;
-    padding-bottom: 9em; }
+    padding-bottom: 13em; }
   #day-2 .row {
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
@@ -117,9 +123,11 @@ body {
   #day-2 .rebel {
     color: yellow; }
   #day-2 #caption {
-    font-family: 'Megrim', cursive;
+    /*		font-family: 'Megrim', cursive;*/
+    font-family: 'Open Sans Condensed', sans-serif;
     color: black;
     font-size: 1.5em;
+    letter-spacing: .2em;
     /*		text-transform: uppercase;*/
     text-align: center;
     font-weight: 300;
@@ -127,6 +135,7 @@ body {
     #day-2 #caption p {
       background-color: yellow;
       display: inline-block;
+      border: 1px solid;
       padding: 10px 20px 10px 20px; }
   @media screen and (max-width: 768px) {
     #day-2 #caption {
@@ -137,8 +146,7 @@ body {
 
 /*----------------Day 1*----------------*/
 #day-1 {
-  background-color: pink;
-  color: deeppink; }
+  background-color: pink; }
 
 .row {
   text-align: center;
