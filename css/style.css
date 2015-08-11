@@ -26,7 +26,8 @@ body {
 
 /*----------------Day 3*----------------*/
 #day-3 {
-  background-color: lightyellow; }
+  background-color: lightyellow;
+  color: rgba(255, 0, 0, 0.5); }
   #day-3 .bg-text {
     font-family: 'Cutive Mono';
     font-size: 15em;
@@ -45,23 +46,29 @@ body {
   #day-3 .main-text {
     font-family: 'Varela Round', sans-serif;
     font-weight: bold;
-    color: blue;
-    font-size: 8em;
+    color: darkblue;
+    font-size: 6em;
     margin-left: 30%;
-    max-width: 50%;
+    max-width: 70%;
     position: relative;
     bottom: 80px; }
   @media screen and (max-width: 968px) {
     #day-3 .bg-text {
       font-size: 13em;
-      margin-left: .5em; } }
+      margin-left: .5em; }
+    #day-3 .main-text {
+      font-size: 5em; } }
 @media screen and (max-width: 968px) and (max-width: 680px) {
   #day-3 .bg-text {
     font-size: 9em;
-    margin-left: .5em; } }
+    margin-left: .5em; }
+  #day-3 .main-text {
+    font-size: 4em; } }
 @media screen and (max-width: 968px) and (max-width: 480px) {
   #day-3 .bg-text {
-    font-size: 6em; } }
+    font-size: 6em; }
+  #day-3 .main-text {
+    font-size: 3em; } }
 
   #day-3 .lazy-sunday-2 {
     background-color: blue; }
@@ -95,7 +102,7 @@ body {
     #day-2 #caption p {
       background-color: yellow;
       display: inline-block;
-      padding: 15px 25px 15px 25px; }
+      padding: 10px 20px 10px 20px; }
   @media screen and (max-width: 768px) {
     #day-2 #caption {
       max-width: 250px;

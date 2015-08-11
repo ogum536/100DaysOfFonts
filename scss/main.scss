@@ -40,6 +40,7 @@ $bg-color: yellow;
 
 #day-3 {
 	background-color: lightyellow;
+	color: rgba(255,0,0,.5);
 
 	.bg-text {
 		font-family: 'Cutive Mono';
@@ -64,10 +65,10 @@ $bg-color: yellow;
 	.main-text {
 		font-family: 'Varela Round', sans-serif;
 		font-weight: bold;
-		color: blue;
-		font-size: 8em;
+		color: darkblue;
+		font-size: 6em;
 		margin-left: 30%;
-		max-width: 50%;
+		max-width: 70%;
 
 		position: relative;
 		bottom: 80px;
@@ -80,16 +81,26 @@ $bg-color: yellow;
 			margin-left: .5em;
 		}
 
+		.main-text {
+			font-size: 5em;
+		}
+
 	@media screen and (max-width: 680px) {
 		.bg-text {
 			font-size: 9em;
 			margin-left: .5em;
+		}
+		.main-text {
+			font-size: 4em;
 		}
 	}
 
 	@media screen and (max-width: 480px) {
 		.bg-text {
 			font-size: 6em;
+		}
+		.main-text {
+			font-size: 3em;
 		}
 	}
 
@@ -165,7 +176,7 @@ $rebel-color: yellow;
 						background-color: yellow;
 						display:inline-block;
 
-						padding: 15px 25px 15px 25px;
+						padding: 10px 20px 10px 20px;
 					}
 	}
 
