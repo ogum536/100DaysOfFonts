@@ -31,16 +31,72 @@ body {
 }
 
 
+
+/*----------------Day 4----------------*/
+
+#day-4 {
+	background-color: rgba(211,211,211,.1);
+
+	position: relative;
+
+	.main {
+
+		margin-left: -6%;
+		font-family: 'Monofett', cursive;
+		font-size: 10em;
+		opacity: .3;
+		line-height: .5;
+		padding-bottom: 2em;
+		padding-top: 1.5em;
+		position: relative;
+		z-index: 1;
+	}
+
+
+	@media screen and (max-width: 680px) {
+
+		.main{
+			font-size: 7em;
+			margin-left: -5%;
+		}
+	}
+
+	@media screen and (max-width: 480px) {
+
+		.main{
+			font-size: 5em;
+
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*----------------Day 3*----------------*/
-
-
-
 
 $bg-color: yellow;
 
 #day-3 {
 	background-color: lightyellow;
-	color: rgba(255,0,0,.5);
+	color: darkgrey;
 
 	.bg-text {
 		font-family: 'Cutive Mono';
@@ -48,7 +104,7 @@ $bg-color: yellow;
 		font-weight: bold;
 		line-height: .7;
 
-		margin-top: 50px;
+		margin-top: .3em;
 		margin-left: 1em;
 		color: lightgrey;
 		opacity: .5;
@@ -63,15 +119,16 @@ $bg-color: yellow;
 	}
 
 	.main-text {
+		margin-left: -1em;
 		font-family: 'Varela Round', sans-serif;
 		font-weight: bold;
 		color: darkblue;
 		font-size: 6em;
-		margin-left: 30%;
+		margin-left: 25%;
 		max-width: 70%;
-
+		padding-bottom: 1.5em;
 		position: relative;
-		bottom: 80px;
+		bottom: 60px;
 	}
 
 
@@ -100,6 +157,7 @@ $bg-color: yellow;
 			font-size: 6em;
 		}
 		.main-text {
+			bottom: 30px;
 			font-size: 3em;
 		}
 	}
@@ -214,6 +272,7 @@ $rebel-color: yellow;
 
 #day-1 {
 	background-color: pink;
+	color: deeppink;
 }
 
 .row {

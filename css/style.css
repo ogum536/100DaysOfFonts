@@ -24,16 +24,38 @@ body {
   border: 0px dotted;
   background-color: transparent; }
 
+/*----------------Day 4----------------*/
+#day-4 {
+  background-color: rgba(211, 211, 211, 0.1);
+  position: relative; }
+  #day-4 .main {
+    margin-left: -6%;
+    font-family: 'Monofett', cursive;
+    font-size: 10em;
+    opacity: .3;
+    line-height: .5;
+    padding-bottom: 2em;
+    padding-top: 1.5em;
+    position: relative;
+    z-index: 1; }
+  @media screen and (max-width: 680px) {
+    #day-4 .main {
+      font-size: 7em;
+      margin-left: -5%; } }
+  @media screen and (max-width: 480px) {
+    #day-4 .main {
+      font-size: 5em; } }
+
 /*----------------Day 3*----------------*/
 #day-3 {
   background-color: lightyellow;
-  color: rgba(255, 0, 0, 0.5); }
+  color: darkgrey; }
   #day-3 .bg-text {
     font-family: 'Cutive Mono';
     font-size: 15em;
     font-weight: bold;
     line-height: .7;
-    margin-top: 50px;
+    margin-top: .3em;
     margin-left: 1em;
     color: lightgrey;
     opacity: .5;
@@ -44,14 +66,16 @@ body {
       bottom: .1em;
       position: relative; }
   #day-3 .main-text {
+    margin-left: -1em;
     font-family: 'Varela Round', sans-serif;
     font-weight: bold;
     color: darkblue;
     font-size: 6em;
-    margin-left: 30%;
+    margin-left: 25%;
     max-width: 70%;
+    padding-bottom: 1.5em;
     position: relative;
-    bottom: 80px; }
+    bottom: 60px; }
   @media screen and (max-width: 968px) {
     #day-3 .bg-text {
       font-size: 13em;
@@ -68,6 +92,7 @@ body {
   #day-3 .bg-text {
     font-size: 6em; }
   #day-3 .main-text {
+    bottom: 30px;
     font-size: 3em; } }
 
   #day-3 .lazy-sunday-2 {
@@ -112,7 +137,8 @@ body {
 
 /*----------------Day 1*----------------*/
 #day-1 {
-  background-color: pink; }
+  background-color: pink;
+  color: deeppink; }
 
 .row {
   text-align: center;
