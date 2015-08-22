@@ -8,6 +8,7 @@ body {
   height: 100%; }
 
 .day {
+  color: transparent;
   font-family: 'Alegreya Sans SC', sans-serif;
   font-size: 1.1em;
   font-weight: 100;
@@ -112,7 +113,7 @@ body {
     opacity: .7; }
   #day-2 #main-container {
     padding-top: 6em;
-    padding-bottom: 13em; }
+    padding-bottom: 5.5em; }
   #day-2 .row {
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
@@ -124,18 +125,18 @@ body {
     color: yellow; }
   #day-2 #caption {
     /*		font-family: 'Megrim', cursive;*/
-    font-family: 'Open Sans Condensed', sans-serif;
-    color: black;
+    font-family: 'Julius Sans One', sans-serif;
+    color: lightblue;
     font-size: 1.5em;
     letter-spacing: .2em;
     /*		text-transform: uppercase;*/
     text-align: center;
     font-weight: 300;
-    padding-bottom: 8em; }
+    padding-bottom: 6em; }
     #day-2 #caption p {
       background-color: yellow;
       display: inline-block;
-      border: 1px solid;
+      /*border: 1px solid;*/
       padding: 10px 20px 10px 20px; }
   @media screen and (max-width: 768px) {
     #day-2 #caption {
@@ -147,22 +148,25 @@ body {
 /*----------------Day 1*----------------*/
 .outer-div {
   position: relative;
+  padding: 30px;
   width: 100%;
   height: 100%;
   /*background-color: pink;*/
-  background: url("../images/danae-klimt.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
+  background: url("../images/roses.jpg") no-repeat center;
+  background-position: 50% 70%;
+  opacity: 0.8;
+  /*  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;*/ }
 
 .inner-div {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.4); }
+  height: 115%;
+  background-color: rgba(229, 200, 200, 0.6); }
 
 .row {
   text-align: center;
@@ -176,15 +180,21 @@ body {
     max-width: 250px; } }
 .first-font {
   font-family: 'Raleway', serif;
-  font-style: normal;
-  font-weight: 100;
+  /*font-style: normal;*/
+  font-weight: 300;
   font-size: 1.7em;
   text-align: left;
-  /*color: #4A4A41;*/
   color: white;
+  /*color: 	#878FA4;*/
+  font-style: bold;
   margin-left: 13px;
   margin-bottom: -10px;
-  padding-top: 2em; }
+  padding-top: 2em;
+  float: right;
+  padding-right: 50px; }
+
+.content-wrapper {
+  margin-left: 15px; }
 
 /*bigquote*/
 .second-font {
@@ -192,13 +202,15 @@ body {
   font-size: 30em;
   line-height: .1em;
   text-align: left;
-  /*color: hotpink;*/
-  color: orange;
+  color: #e59595;
+  /*color: #E9CCB1;*/
+  /*color: orange;*/
   /*color: white;*/
   /*opacity: .2;*/
-  padding-top: 200px;
+  padding-top: 230px;
   float: left;
   clear: both;
+  /*margin-left: 40px;*/
   -moz-transform: scaleX(-1);
   /* Gecko */
   -o-transform: scaleX(-1);
@@ -210,6 +222,7 @@ body {
   filter: FlipH;
   /* IE 6/7/8 */ }
 
+/*main font*/
 .third-font {
   position: relative;
   z-index: 100;
@@ -221,7 +234,10 @@ body {
   word-spacing: 0em;
   line-height: 1.4;
   /*color: #4A4A41;*/
-  padding-bottom: 3em;
+  /*color: #E9CCB1;*/
+  color: white;
+  /*color:white;*/
+  /*padding-bottom: 3em;*/
   margin-left: 70px;
   margin-top: -140px;
   text-align: left;
@@ -229,16 +245,28 @@ body {
   z-index: 1; }
 
 @media screen and (max-width: 800px) {
+  .inner-div {
+    height: 110%; }
+
   .third-font {
     font-size: 3em; } }
 @media screen and (max-width: 668px) {
+  .content-wrapper {
+    margin-left: -20px; }
+
   .third-font {
     font-size: 2.3em; } }
+@media (max-width: 543px) {
+  .first-font {
+    color: transparent; } }
 a {
-  color: gold; }
+  /*color: #E392A2;*/
+  /*color: #;*/
+  color: #e59595;
+  /*color: #E9CCB1;*/ }
 
 a:hover {
-  color: #4A4A41;
+  color: #e58096;
   text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */
