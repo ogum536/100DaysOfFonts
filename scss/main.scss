@@ -278,8 +278,8 @@ $rebel-color: yellow;
 	/*background-color: pink;*/
 	background: url("../images/roses.jpg") no-repeat center;
 
-	background-position: 50% 70%;
-	opacity: 0.8;
+	background-position: 50% 60%;
+	opacity: 0.7;
 
 /*  -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -292,8 +292,10 @@ $rebel-color: yellow;
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 115%;
-	background-color: rgba(#E5C8C8,.6);
+	height: 108%;
+	/*background-color: rgba(#E5C8C8,.6);*/
+	/*background-color: rgba(#f7ce91, .9)*/
+	background-color: rgba(#fce2b8, .9);
 }
 
 
@@ -320,7 +322,7 @@ $rebel-color: yellow;
 	font-weight: 300;
 	font-size: 1.7em;
 	text-align: left;
-	color: white;
+	color: #3e4451;
 	/*color: 	#878FA4;*/
 	font-style: bold;
 	margin-left: 13px;
@@ -342,11 +344,15 @@ $rebel-color: yellow;
 	font-size:30em;
 	line-height:.1em;
 	text-align: left;
-	color: #e59595;
+	/*color: #e59595;*/
+
+	color: rgba(#c97f6e, .9);
+
+
 	/*color: #E9CCB1;*/
 	/*color: orange;*/
 	/*color: white;*/
-	/*opacity: .2;*/
+	/*opacity: .9;*/
 	padding-top:230px;
 
 	float: left;
@@ -374,7 +380,7 @@ $rebel-color: yellow;
 	line-height: 1.4;
 	/*color: #4A4A41;*/
 	/*color: #E9CCB1;*/
-	color: rgba(white,1);
+	color: rgba(#3e4451,1);
 
 	/*color:white;*/
 
@@ -418,7 +424,7 @@ $rebel-color: yellow;
 a {
 	/*color: #E392A2;*/
 	/*color: #;*/
-	color: #e59595;
+	color: #c97f6e;
 	/*color: #E9CCB1;*/
 }
 
